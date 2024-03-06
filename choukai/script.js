@@ -16,7 +16,7 @@ $(document).ready(function () {
             <td>${item.tingkat}</td>
             <td>${item.jumlah}</td>
             <td class="table-action text-center">
-              <a href="choukai/index.html?id=${item.id}" id="accessbutton-${item.id}" style="display: none;" class="btn btn-primary">Buka</a>
+              <a href="list/index.html?id=${item.id}" id="accessbutton-${item.id}" style="display: none;" class="btn btn-primary">Buka</a>
               <a onclick="setFocusToInput()" href="javascript:void(0);" id="blockbutton-${item.id}" style="display: none;">Masukan Kode</a>
               <a id="block-${item.id}" style="display: none;">Tutup</a>
             </td>
